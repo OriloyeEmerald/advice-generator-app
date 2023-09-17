@@ -6,6 +6,7 @@
    text-align: center;
    position: relative;
    align-items: center;
+   /* overflow-x: hidden; */
  }
 
  .container:hover {
@@ -14,12 +15,12 @@
 
  img {
      cursor: pointer;
-     position: absolute;
      display: block;
-     width: 100%; 
-     right: 7.2rem;
-     bottom: -1.7rem;
      width: 60px;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     bottom: -15%; 
      transition: ease-in 0.4s, box-shadow 0.3s;
  }
  
@@ -55,10 +56,10 @@
     height: .1rem; 
 }
 .bar {
-    position: absolute;
-    width: 12px;
-    right: 8.7rem;
-    bottom:3.8rem ;
+    width: 3px;
+    height: 15px;
+    background-color: #cee3e9;
+    margin-right: .3rem;
 }
 .border {
     width: 120px;

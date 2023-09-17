@@ -16,7 +16,8 @@ const Advice = ({advice, number, getAdvice, isLoading}) => {
        <p className='advice'>"{advice}"</p>
        <div className="border-container">
         <div className="border"></div>
-        <img src={borderLogo} alt="" className='bar' /> 
+         <div className='bar'></div>
+         <div className='bar'></div>
         <div className="border"></div>
     </div>
        <div className='img'>

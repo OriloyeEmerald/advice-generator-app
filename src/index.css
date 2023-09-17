@@ -3,7 +3,6 @@
 :root {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
-  
   font-weight: 400;
   font-size: .9em;
   color-scheme: light dark;
@@ -23,6 +22,6 @@ body {
   place-items: center;
   align-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
